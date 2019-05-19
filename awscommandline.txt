@@ -1,1 +1,6 @@
+$ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+$ unzip awscli-bundle.zip
+$ sudo /usr/local/bin/python3.6 awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+$ sudo /Library/Frameworks/Python.framework/Versions/3.7/bin/python3 awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+$ aws --version
 
